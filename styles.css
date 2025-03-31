@@ -1,3 +1,4 @@
+/*Selector de tipo*/
 div {
     width: 250px;
     height: 250px;
@@ -8,6 +9,7 @@ p {
     color: orange;
 }
 
+/*Selector de clase*/
 .caja {
     width: 150px;
     height: 150px;
@@ -24,4 +26,29 @@ p {
     width: 150px;
     height: 150px;
     background-color: #1ecbe1
+}
+
+.capibara {
+    width: 150px;
+    height: 150px;
+    background-color: hsl(0, 100%, 50%)
+}
+
+
+/*Selector universal*/
+* {
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+/*Selector de ID*/
+#soy_unico {
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+}
+
+/*Selector de atributo*/
+a[title] {
+    color: red;
 }
