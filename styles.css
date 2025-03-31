@@ -1,5 +1,5 @@
 /*Selector de tipo*/
-div {
+/*div {
     width: 250px;
     height: 250px;
     background-color: orange;
@@ -7,8 +7,7 @@ div {
 
 p {
     color: orange;
-
-}
+}*/
 
 /*Selector de clase*/
 .caja {
@@ -37,10 +36,11 @@ p {
 
 
 /*Selector universal*/
+/*
 * {
     color: rgb(0, 0, 0);
     font-weight: bolder;
-}
+}*/
 
 /*Selector de ID*/
 #soy_unico {
@@ -64,14 +64,14 @@ input:disabled {
 }
 
 /*Pseudo Elementos*/
-p::first-line {
+/*p::first-line {
     color: green;
-}
+}*/
 
-p::first-letter {
+/*p::first-letter {
     color: red;
     font-size: 45px;
-}
+}*/
 
 .capibara1,
 capibara2,
@@ -79,4 +79,8 @@ capibara3 {
     height: 100px;
     width: 100px;
     background-color: violet;
+}
+
+.padre p {
+    color: red;
 }
